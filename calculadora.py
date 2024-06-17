@@ -8,7 +8,6 @@ def multiplicacao(a, b):
     return a * b
 
 def divisao(a, b):
-    # Verifica se o divisor é zero para evitar divisão por zero
     if b == 0:
         return "Erro: Divisão por zero!"
     else:
